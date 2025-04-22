@@ -1,0 +1,52 @@
+@import url(global.css);
+
+/* header */
+    header{
+        display: flex;
+        justify-content: center;
+        gap: 83px;
+        align-items: center;
+        padding: 17px 130px;        
+    }
+
+    .nav-header ul{
+        display: flex;
+        gap: 21px;
+        list-style: none;        
+    }
+
+    .nav-header a{
+        text-decoration: none;
+        color: #737373;
+    }
+
+    .navigation{
+        display: flex;
+        gap: 235px;
+        align-items: center;
+    }
+
+    .header-buttons{
+        display: flex;
+        align-items: center;
+    }
+
+    .login-button{
+        background-color: var(--light-background-color);
+        color: var(--primary-color);
+    }
+
+    .member-button{
+        padding: 15px 25px;
+        color: var(--light-text-color);
+        background-color: var(--primary-color);
+        height: 52px;
+        border-radius: 5px;
+        margin-left: 45px;
+    }
+
+    .arrow{
+        margin-left: 15px;
+    }
+
+/* fim do header */
