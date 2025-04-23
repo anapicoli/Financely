@@ -48,5 +48,56 @@
     .arrow{
         margin-left: 15px;
     }
-
 /* fim do header */
+/* main */
+.main-container{
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-info{
+    margin-top: 135px;
+    margin-left: 116px;
+}
+
+.main-info h1{
+    font-size: 58px;
+    width: 573px;
+    margin-bottom: 30px;
+    color: var(--text-color);
+}
+
+.main-info p{
+    color: var(--second-text-color);
+    width: 376px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.main-buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.quote{
+    padding: 15px 36px;
+    background-color: var(--primary-color);
+    color: var(--light-text-color);
+    border-radius: 37px;
+}
+
+.learn{
+    padding: 15px 36px;
+    background-color: var(--light-background-color);
+    color: var(--primary-color);
+    border: solid 1px var(--primary-color);
+    border-radius: 37px;
+}
+
+.main-img{
+    margin-top: 58px;
+    margin-right: 113.5px;
+}
+/* fim do main */
