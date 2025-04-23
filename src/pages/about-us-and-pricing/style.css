@@ -1,0 +1,55 @@
+@import url(../../styles/global.css);
+
+/* ABOUT US */
+.about-us{
+    padding: 112px 195px;
+}
+
+.about-us h2{
+    font-size: 40px;
+}
+
+.title-about-us{
+    justify-items: center;
+    margin-bottom: 96px;
+}
+
+.title-about-us p{
+    margin-top: 10px;
+    width: 470px;
+    height: 40px;
+    text-align: center;
+    color: var(--second-text-color);
+}
+
+.img-center{
+    margin-right: 120px;
+}
+.center-about-us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-about-us{
+
+}
+
+.about-us-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;    
+}
+
+.about-us-content h3{
+    width: 240px;    
+    font-size: 24px;
+}
+
+.about-us-content p{
+    font-size: 14px;
+    width: 327px;
+    color: var(--second-text-color);
+    font-family: 'Montserrat', sans-serif !important; 
+}
+/* END ABOUT US */
