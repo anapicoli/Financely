@@ -1,4 +1,4 @@
-@import url(global.css);
+ @import url(global.css);
 
 /* header */
     header{
@@ -6,7 +6,8 @@
         justify-content: center;
         gap: 83px;
         align-items: center;
-        padding: 17px 130px;        
+        padding: 17px 130px;
+        background-color: var(--light-gray-1);      
     }
 
     .nav-header ul{
@@ -40,6 +41,7 @@
         padding: 15px 25px;
         color: var(--light-text-color);
         background-color: var(--primary-color);
+        width: 214px;
         height: 52px;
         border-radius: 5px;
         margin-left: 45px;
@@ -50,6 +52,9 @@
     }
 /* fim do header */
 /* main */
+.main-section{
+    background-color: var(--light-gray-1); 
+}
 .main-container{
     gap: 30px;
     display: flex;
@@ -99,5 +104,85 @@
 .main-img{
     margin-top: 58px;
     margin-right: 113.5px;
+}
+
+.cards-container{
+    display: flex;
+    margin: 66px 19.5px 53px 19.5px;
+    gap: 30px;
+
+}
+
+.card-one{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding: 35px 57px 35px 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.image-container{
+    display: flex;
+    width: 314px;
+    gap: 15px;
+}
+
+.card-image{
+    width: 48px;
+}
+
+.card-one h2{
+    font-size: 16px;
+}
+
+.card-one p{
+    width: 350px;
+    color: var(--second-text-color);
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.card-two{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding: 35px 57px 35px 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-two h2{
+    font-size: 16px;
+}
+
+.card-two p{
+    width: 350px;
+    color: var(--second-text-color);
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.card-three{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding: 35px 57px 35px 40px;
+    width: 447px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: var(--primary-color);
+    color: var(--light-text-color);
+}
+
+.card-three h2{
+    font-size: 16px;
+}
+
+.card-three p{
+    width: 350px;
+    color: var(--light-text-color);
+    margin-left: 40px;
+    margin-top: 15px;
 }
 /* fim do main */
