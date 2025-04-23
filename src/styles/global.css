@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Montserrat';
-    src: url('../assets/fonts/') format('ttf');         
+    src: url('../assets/fonts/Montserrat/static/Montserrat-ExtraBold.ttf') format('ttf');         
 }
 
-body {
-    font-family: 'Montserrat', sans-serif; 
+body, html {
+    font-family: 'Montserrat', sans-serif !important; 
 }
 
 *{
