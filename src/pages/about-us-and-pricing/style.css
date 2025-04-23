@@ -53,3 +53,77 @@
     font-family: 'Montserrat', sans-serif !important; 
 }
 /* END ABOUT US */
+
+/* PRICING */
+
+.title-pricing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-pricing p{
+    width: 470px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;   
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 80px;
+}
+
+.card-free, .cards-standard{
+    border: 1px solid var(--primary-color);
+    padding: 50px 30px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    
+}
+
+.container-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--primary-color);
+}
+
+.cards-price p{
+    font-size: 40px;    
+    font-weight: 700;
+}
+
+.cards-price{
+}
+
+.card-free button, .cards-standard button{
+    background-color: var(--primary-color);
+    padding: 15px 100px;
+    color: var(--light-text-color);
+    font-weight: 700;
+    border-radius: 5px;    
+}
+
+.cards-currency{
+    text-align: start;
+}
+
+.cards-currency p{
+    
+}
+
+.benefits-packeges{
+    display: flex;
+    margin-bottom: 15px;
+    gap: 10px;
+    align-items: center;
+}
+
+/* END PRICING */
