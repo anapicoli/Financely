@@ -50,6 +50,13 @@
     .arrow{
         margin-left: 15px;
     }
+
+    .menu-toggle span{
+        width: 30px;
+        height: 3px;
+        background-color: #333;
+        margin: 3px 0;    
+    }
 /* fim do header */
 /* main */
 .main-section{
@@ -543,3 +550,280 @@ footer{
     margin: 25px 0px;
 }
 /*  END FOOTER */
+
+@media (max-width: 768px) {
+    /* header */
+    .nav-header, .header-buttons{
+        display: none;
+    }
+
+    header {
+        flex-direction: row;
+        padding: 15px 30px;
+    }
+
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        border: none;
+        margin-right: 5px;
+    }
+    /* fim do header */
+    /* main */
+    .main-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .main-info {
+        margin: 0;
+        text-align: center;
+    }
+
+    .main-info h1 {
+        font-size: 32px;
+        width: auto;
+    }
+
+    .main-info p {
+        font-size: 16px;
+        width: auto;
+    }
+
+    .main-buttons{
+        justify-content: center;
+    }
+
+    .main-img {
+        justify-content: center;
+        margin: 58px 113.5px;
+    }
+
+    .main-img img{
+        width: 500px;
+    }
+
+    .cards-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card-one, .card-two, .card-three{
+        width: 350px;
+    }
+
+    .card-one p, .card-two p, .card-three p {
+        margin-left: 0;
+        width: auto;
+        text-align: center;
+    }
+    /* fim do main */
+    /* strategy */
+    .strategy-container {
+        flex-direction: column;
+        padding: 20px;
+        gap: 40px;
+    }
+
+    .strategy-info h2 {
+        width: auto;
+        font-size: 28px;
+    }
+
+    .strategy-info p {
+        width: auto;
+        font-size: 14px;
+    }
+
+    .strategy-image {
+        width: 100%;
+    }
+
+    .strategy-image img{
+        width: 350px;
+    }
+    /* fim do strategy */
+
+    /* clients */
+    .clients-container {
+    padding: 40px 20px;
+    gap: 40px;
+    }
+
+    .clients-info h2 {
+        font-size: 28px;
+    }
+
+    .clients-info p {
+        width: auto;
+        font-size: 14px;
+    }
+
+    .clients-card {
+        width: auto;
+        padding: 20px;
+    }
+
+    .clients-card-container {
+        gap: 20px;
+    }
+
+    .clients-card-info {
+        width: auto;
+        padding: 0 10px;
+    }
+
+    .clients-card-info p {
+        font-size: 14px;
+    }
+    /* fim do clients */
+
+     /* about us */
+     .about-us {
+        padding: 40px 20px;
+    }
+
+    .title-about-us {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .title-about-us p {
+        width: auto;
+    }
+
+    .center-about-us {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .img-center {
+        margin-right: 0;
+    }
+
+    .img-center img{
+        width: 370px;
+    }
+
+    .about-us-content {
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-us-content h3 {
+        width: auto;
+        font-size: 20px;
+    }
+
+    .about-us-content p {
+        width: auto;
+        font-size: 14px;
+    }
+    /* fim do about us */
+
+    /* pricing */
+    .pricing {
+    padding: 40px 20px;
+    }
+
+    .title-pricing p {
+        width: auto;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card-free, .cards-standard {
+        width: 100%;
+        padding: 30px 20px;
+    }
+
+    .card-free button, .cards-standard button {
+        padding: 15px;
+    }
+    /* fim do pricing */
+
+    /* contact us */
+    .text-contact {
+     margin: 20px 0;
+    }
+
+    .text-contact p {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .form-contact{
+        width: 300px;
+        margin-left: 45px;
+    }
+
+    .part-1 input, .part-2 input {
+        width: 100%;
+    }
+
+    .message {
+        width: 100%;
+        padding: 16px;
+    }
+
+    .blue-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px auto;
+    }
+
+    .flex-contact {
+        margin-top: 40px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Consulting-contact,
+    .envite-contact {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .envite-contact button {
+        padding: 15px 30px;
+    }
+    /* fim do contact us */
+
+    /* footer */
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px 20px;
+        gap: 30px;
+    }
+
+    .column-one, .column-two, .column-tree, .social-midia {
+        width: 100%;
+    }
+
+    .social-midia p {
+        margin: 10px auto;
+    }
+
+    .icons-midia {
+        justify-content: center;
+    }
+
+    .column-one p, .column-two p, .column-tree p {
+        line-height: 30px;
+    }
+
+    .made-with {
+        padding: 20px;
+        font-size: 14px;
+    }
+}

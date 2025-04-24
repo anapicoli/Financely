@@ -1,5 +1,6 @@
 
 <!-- MODELO PROJETO FINALIZADO -->
+
 <h1 align="center"> 
 	  ✅ Financely - Concluído ✅
 </h1>
@@ -7,6 +8,7 @@
 <!-- ---------------------------------------------------------------------- -->
 
 <!-- MODELO MENU DE NAVEGAÇÃO -->
+
 <p align="center">
  <a href="#-descrição-do-entregável">Descrição do Entregável</a> •
  <a href="#-sobre-o-projeto">Sobre</a> •
@@ -19,6 +21,7 @@
 <!-- ---------------------------------------------------------------------- -->
 
 <!-- MODELO DE DESCRIÇÃO -->
+
 ## 📄 Descrição do entregável
 
 <!-- EXEMPLO DE DESCRIÇÃO DE UM PROJETO: -->
@@ -32,22 +35,20 @@
 
 - index.html
 
-
 <!-- MODELO DESCRIÇÃO SOBRE O PROJETO: -->
+
 ## 💻 Sobre o projeto
 
 <!-- EXPLICA O MOTIVO DO PROJETO -->
 Financely é um projeto desenvolvido com base em um protótipo do Figma, com o objetivo de aplicar e consolidar os conhecimentos adquiridos em HTML e CSS.
 
-
-
-
-
 <!-- EXEMPLO DE LAYOUT: -->
+
 ## 🎨 Layout
 
 <!-- AQUI VOCÊ PASSA O CAMINHO DA IMAGEM -->
 ![image](https://github.com/user-attachments/assets/5ee9cc2d-fc1c-4021-84c7-8cec5eb9bf07)<br>
+
 <!-- ---------------------------------------------------------------------- -->
 
 <!-- MODELO DE COMO EXECUTAR O PROJETO -->
@@ -66,6 +67,7 @@ Você também pode acessar clicando nesse link do Github Pages:
 - [Financely](https://github.com/anapicoli/Financely)
 
 <!-- MODELO DE TECNOLOGIAS -->
+
 ## 🛠 Tecnologias
 
 #### **Front-End**  ([HTML](https://html.com/)) 
@@ -83,6 +85,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 </div>
 
 <!-- MODELO DE COMO CONTRIBUIR PARA O PROJETO -->
+
 ## 💪 Como contribuir para o projeto
 
 1. Faça um **fork** do projeto.
@@ -90,10 +93,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
 4. Envie as suas alterações: `git push origin my-feature`
 
-
 <!-- ---------------------------------------------------------------------- -->
 
 <!-- MODELO DE AUTOR-->
+
 ## 🦸 Autor
 
 Ana Picoli
