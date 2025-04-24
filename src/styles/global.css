@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    color: var(--ligth-gray-1);
 }
 
 h2{
