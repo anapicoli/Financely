@@ -96,7 +96,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <!-- MODELO DE AUTOR-->
 ## 🦸 Autor
 
-Ana Picoli
+Ana Picoli e
 Lyvia Fernandes
  <br />
  
