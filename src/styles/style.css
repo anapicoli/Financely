@@ -536,7 +536,7 @@ footer{
     display: flex;
     gap: 20px;
 }
-
+ 
 .made-with{
     color: var(--second-text-color);
     text-align: center;
