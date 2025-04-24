@@ -28,7 +28,8 @@ cd Financely
 3- Acessar o index.html para visualizar o contéudo
 
 Ou acesse por aqui
-Você também pode acessar clicando nesse link do Github Pages:
+Você também pode acessar clicando nesse link:
+financely-red.vercel.app
 
 🛠 Tecnologias
 Front-End (HTML)
