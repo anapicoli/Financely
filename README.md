@@ -99,7 +99,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 🦸 Autor
 
-Ana Picoli
+Ana Picoli e
 Lyvia Fernandes
  <br />
  
