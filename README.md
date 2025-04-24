@@ -100,9 +100,5 @@ Ana Picoli
 Lyvia Fernandes
  <br />
  
-<!-- ---------------------------------------------------------------------- -->
-
-
-Feito por Ana Picoli e Lyvia Fernandes👋🏽 
 
 
