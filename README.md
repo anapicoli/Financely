@@ -14,7 +14,6 @@
  <a href="#-como-executar-o-projeto">Como executar</a> • 
  <a href="#-tecnologias">Tecnologias</a> • 
  <a href="#-autor">Autor</a> • 
- <a href="#-licença">Licença</a>
 </p>
 
 <!-- ---------------------------------------------------------------------- -->
@@ -48,7 +47,7 @@ Financely é um projeto desenvolvido com base em um protótipo do Figma, com o o
 ## 🎨 Layout
 
 <!-- AQUI VOCÊ PASSA O CAMINHO DA IMAGEM -->
-![Tela]![image](https://github.com/user-attachments/assets/5ee9cc2d-fc1c-4021-84c7-8cec5eb9bf07)<br>
+![image](https://github.com/user-attachments/assets/5ee9cc2d-fc1c-4021-84c7-8cec5eb9bf07)<br>
 <!-- ---------------------------------------------------------------------- -->
 
 <!-- MODELO DE COMO EXECUTAR O PROJETO -->
@@ -103,10 +102,6 @@ Lyvia Fernandes
  
 <!-- ---------------------------------------------------------------------- -->
 
-<!-- MODELO DE LICENÇA -->
-## 📝 Licença
-
-Este projeto esta sobe a licença [MIT](./LICENSE).
 
 Feito por Ana Picoli e Lyvia Fernandes👋🏽 
 
