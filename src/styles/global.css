@@ -9,6 +9,11 @@ body {
 
 h2{
     font-size: 40px;
+    color: var(--text-color);
+}
+
+h3{
+    color: var(--text-color);
 }
 
 *{
@@ -21,7 +26,6 @@ h2{
     --primary-color: #23A6F0;
     --secondary-color-1: #40BB15;
     --secondary-color-2: #3C403D;
-    --background-gradient-1:
     --text-color: #252B42;
     --second-text-color: #737373;
     --light-text-color: #FFFFFF;

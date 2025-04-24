@@ -108,7 +108,7 @@
 
 .cards-container{
     display: flex;
-    margin: 66px 19.5px 53px 19.5px;
+    justify-content: center;
     gap: 30px;
 
 }
@@ -118,7 +118,7 @@
     flex-direction: column;
     gap: 15px;
     align-items: center;
-    padding: 35px 57px 35px 40px;
+    padding: 35px 5px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -148,7 +148,7 @@
     flex-direction: column;
     gap: 15px;
     align-items: center;
-    padding: 35px 57px 35px 40px;
+    padding: 35px 5px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -168,8 +168,7 @@
     flex-direction: column;
     gap: 15px;
     align-items: center;
-    padding: 35px 57px 35px 40px;
-    width: 447px;
+    padding: 35px 5px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-color: var(--primary-color);
     color: var(--light-text-color);
@@ -186,3 +185,111 @@
     margin-top: 15px;
 }
 /* fim do main */
+/* strategy */
+.strategy-section{
+    margin-top: 53px;
+    background-color: var(--light-gray-1);
+}
+
+.strategy-container{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.strategy-info{
+    margin-top: 112px;
+    justify-content: center;
+}
+
+.strategy-info h2{
+    width: 468px;
+    text-align: center;
+    font-size: 40px;
+    color: var(--text-color);
+}
+
+.strategy-info p{
+    width: 470px;
+    text-align: center;
+    font-size: 14px;
+    color: var(--second-text-color);
+    margin-top: 10px;
+}
+
+.strategy-image{
+    width: 1055px;
+    margin-bottom: 55px;
+}
+/* fim do strategy */
+/* clients */
+.clients-section{
+    background-color: var(--light-gray-1);
+}
+
+.clients-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 112px 0px;
+    gap: 80px;
+}
+
+.clients-info{
+    justify-content: center;
+}
+
+.clients-info h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.clients-info p{
+    text-align: center;
+    color: var(--second-text-color);
+    font-size: 14px;
+    width: 470px;
+}
+
+.clients-card{
+    background-color: var(--light-background-color);
+    padding: 40px 35px;
+    width: 744px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.clients-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.clients-card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 433px;  
+    gap: 15px;
+}
+
+.clients-card-info p{
+    font-size: 14px;
+    text-align: center;
+    color: var(--second-text-color);
+}
+
+.clients-card-info h3{
+    font-size: 24px;
+}
+
+.clients-card-info h4{
+    font-size: 14px;
+    color: var(--second-text-color);
+}
+/* fim do clients */
